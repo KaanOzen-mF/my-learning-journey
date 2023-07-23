@@ -2,4 +2,234 @@ html,
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
+
+/*Header Section Start*/
+header{
+    display: flex;
+    width: 100%;
+    height: 59px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background-color: bisque;
+}
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-shrink: 0;
+    padding-left: 12px;
+}
+
+.logo{
+    width: 23.16px;
+    height: 23.16px;
+    border-radius: 17px;
+    background-image: url("/images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo-container h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    color: #0E0E0E;
+    font-family: Roboto;
+    font-size: 13.55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.2%; /* 14.661px */
+    letter-spacing: -0.407px;
+}
+
+.header-text{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-shrink: 0;
+    gap: 40px;
+    padding-right: 12px;
+    color: #090909;
+    text-align: right;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.header-text p:hover{
+    font-weight: 900;
+    cursor: pointer;
+}
+/*Header Section End*/
+
+/*Hero Section Start*/
+hero{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    background-image: url("/images/heroSection-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;  
+    margin: 0;
+}
+
+hero p{
+    color: #fff;
+    font-family: Source Sans Pro;
+    margin: 0 17px;
+}
+
+.article-date-hero{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article-title-hero{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    line-height: 108.2%;
+    width: 56%;
+}
+
+.article-preview-hero{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 10%;
+}
+/*Hero Section End*/
+
+
+/*Article Section Start*/
+ article{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 17px;
+    padding-top: 12px;
+ }
+
+ .articles{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 16px;
+ }
+
+ .articles img{
+    width: 100%;
+ }
+
+ .article-date{
+    font-style: 12px;
+    font-weight: 400;
+    line-height: normal;
+ }
+
+ .article-title{
+    font-style: 24px;
+    font-weight: 700;
+    line-height: 108.2%;
+ }
+
+ .article-preview{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+ }
+
+ .view-more{
+    text-align: center;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 5 00;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #2e2e2e;
+ }
+
+ .view-more:hover{
+    font-weight: 900;
+    color: #000;
+ }
+
+ .view-more a{
+    color: inherit;
+    text-decoration: none;
+ }
+
+ .view-more a:visited{
+    color: inherit ;
+ }
+/*Article Section End*/
+
+/*Copyright Section Start*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    background-color: #202020;
+    margin: 0;
+    height: 105px;
+    
+}
+
+footer p{
+    margin: 0px 10px;
+}
+/*Copyrigt Section End*/
+
+
+
+/*---------------articles.html Start-------------------------*/
+/*Article Section Start*/
+.article-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+.article-main p{
+    margin: 8px 0px;
+}
+
+.article-hero-subtitle{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.recent-post{
+    font-weight: 900;
+    text-align: center;
+}
+/*Article Section End*/
+/*---------------articles.html End-------------------------*/
+
+/*---------------about-me.html Start-------------------------*/
+
+
+/*---------------about-me.html Start-------------------------*/
