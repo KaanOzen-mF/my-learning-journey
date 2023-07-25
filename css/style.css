@@ -393,10 +393,19 @@ footer p{
 /*Article Section End*/
 /*---------------articles.html End---------------------------*/
 
+
+/*---------------about-me.html Start---------------------------*/
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .about-me-container{
     display: grid;
-    grid-template-columns: 1fr 1fr; /* The columns will be equally sized */
-    grid-gap: 20px; /* Add some gap between the columns */
+    grid-template-columns: auto 1fr;
 }
+
+
+/*---------------about-me.html End---------------------------*/
 }
 /*---------------Responsive Design End-----------------------*/
